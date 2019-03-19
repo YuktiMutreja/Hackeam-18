@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+
+<div class="header">
+<body>
+<br>
+<h1 align="center">Annual Feedback Form</h1>
+<br><br><br></div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body 
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #008CBA;
+    color: white;
+	align: middle;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#008CBA ;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	
+	table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+	font-size: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <form action="">
+    <label for="fname">TEACHER's NAME</label>
+    <input type="text" id="fname" name="Teachers name" placeholder="Teachers name..">
+
+    <label for="lname">SUBJECT NAME</label>
+    <input type="text" id="lname" name="subject name" placeholder=" Subject name..">
+
+    <label for="Department">DEPARTMENT</label>
+    <select id="Department" name="Department">
+      <option value="CSE">CSE</option>
+      <option value="IT">IT</option>
+      <option value="ECE">ECE</option>
+	        <option value="MAE">MAE</option>
+			      <option value="B.ARCH">B.ARCH</option>
+
+    </select>
+
+ <table><font size="6">
+  <tr>
+    <th>FEEDBACK CRITERIA</th>
+    <th>4</th>
+    <th>3</th>
+	<th>2</th>
+	<th>1</th>
+  </tr>
+  <tr>
+    <td>The Teacher covers the entire syllabus</td>
+  <form><td><input type="radio" value="4" name="in1" >4</td>
+    <td><input type="radio" value="3" name="in1">3</td>
+	<td><input type="radio" value="2" name="in1">2</td>
+	<td><input type="radio" value="1" name="in1">1</td></form>
+  </tr>
+  <tr>
+    <td>The Teacher discusses the topic in detail</td>
+    <form><td><input type="radio" name="in2">4</td>
+	<td><input type="radio" name="in2">3</td>
+	<td><input type="radio" name="in2">2</td>
+	<td><input type="radio" name="in2">1</td></form>
+  </tr>
+  <tr>
+    <td>The Teacher communicates clearly</td>
+    <td><form><input type="radio" name="in3">4</td>
+	<td><input type="radio" name="in3">3</td>
+	<td><input type="radio" name="in3">2</td>
+	<td><input type="radio" name="in3">1</form></td>
+  </tr>
+  <tr>
+    <td>The Teacher insipires me with their knowleadge</td>
+    <form><td><input type="radio" name="in4">4</td>  
+	<td><input type="radio" name="in4">3</td>
+	<td><input type="radio" name="in4">2</td>
+	<td><input type="radio" name="in4">1</td></tr></form>
+  
+  <tr>
+    <td>The Teacher engages the student in class discussions</td>
+	<form><td><input type="radio" name="in5">4</td>
+	<td><input type="radio" name="in5">3</td>
+	<td><input type="radio" name="in5">2</td>
+	<td><input type="radio" name="in5">1</td></form>
+  </tr>   
+  <tr>
+    <td>The Teacher provides guidance and counselling in both acedemic and non-acedemic areas</td>
+	<form><td><input type="radio" name="in6">4</td>
+	<td><input type="radio" name="in6">3</td>
+	<td><input type="radio" name="in6">2</td>
+	<td><input type="radio" name="in6">1</td></form>
+  </tr>   
+  </font>
+  </table> 
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

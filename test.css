@@ -1,0 +1,41 @@
+  h1 { color:white; }
+  p { color:#00F; }
+  .header{ background-image: url("webhead.jpg") ; background-repeat: repeat-x ; margin-left: -10px; margin-right: -8px; margin-top: -20px; }
+  
+  .button1 {
+    background-color: #008CBA; /* blue*/
+    border: 2px solid 008CBA;
+    color: white;
+    padding: 15px 32px;
+	width: 50%;
+    text-align: center;
+    display: inline-table;
+    font-size: 50px;
+	margin: 30 300;
+}
+ .button2 {
+    background-color: #008CBA; /* blue */
+    border: 2px solid 008CBA;
+    color: white;
+	width: 50%;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-table;
+    font-size: 50px;
+	margin:30 300;
+}
+ .button3 {
+    background-color: #008CBA; /* blue */
+    border: 2px solid 008CBA;
+    color: white;
+    width: 50%;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-table;
+    font-size: 50px;
+	margin:30 300;
+}
+ .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;

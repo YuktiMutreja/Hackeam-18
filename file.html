@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="test.css">
+<title> file a complaint</title>
+</head>
+<div class="header">
+<body><br>
+<h1 align="center"> File A New Complaint!</h1>
+<br><br><br>
+</div>
+<div class="container">
+<form action="response.php", method="post">
+ <label for="deptt" ><font size="5" >Select a Department</label>
+ <br>
+<select required name="deptt">
+  <option> ....</option>
+  <option name="ece" value="ECE">Electronics and Communication</option>
+  <option name="it" value="IT">Information Technology</option>
+  <option name="cse" value="CSE">Computer Science</option>
+  <option name="mae" value="MAE">Mechanical in Automation</option>
+  <option name="arch" value="ARCH">Architecture</option>
+</select><br>
+<label> Subject</label><br>
+<input name="subject" type="text" size="75" required><br>
+<label for="details">Please Elaborate:</font></label><br>
+    <textarea id="subject" name="details" placeholder="Explain your problem" cols="150" rows="25" >
+</textarea>
+<br>
+<input type="submit" required style=" align=center">
+<p><font size="4"> NOTE: Please be polite and respectful in your approach.Any kind of misconduct will lead to nullification of your complaint.</font>
+</form>
+</div>
+</body>
+</html>
+
+
